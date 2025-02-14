@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #ffebee;
+    background-image: url('corazones.png'); /* Fondo con corazones */
+    background-size: cover;
+    background-position: center;
+    font-family: 'Arial', sans-serif;
+}
+
+.container {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.9); /* Fondo semi-transparente */
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    position: relative;
+    max-width: 500px;
+    width: 100%;
+    margin-left: 20%; /* Mueve el contenedor más a la izquierda */
+}
+
+h1 {
+    font-size: 2rem;
+    color: #d32f2f;
+    margin-bottom: 30px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+button {
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    color: #fff;
+    background-color: #d32f2f;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #b71c1c;
+}
+
+.osito {
+    width: 300px; /* Tamaño más grande para los GIFs */
+    margin-top: 20px;
+}
+
+.hidden {
+    display: none;
+}
+
+.agradecimiento {
+    margin-top: 20px;
+    font-size: 1rem;
+    color: #555;
+}

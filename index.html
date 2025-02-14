@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Xiomarita - San Valentín</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Primera parte: Pregunta inicial -->
+        <div id="pregunta">
+            <h1 id="message">Xiomarita, ¿quieres ser mi San Valentín?</h1>
+            <div class="buttons">
+                <button id="siButton">Sí</button>
+                <button id="noButton">No</button>
+            </div>
+            <img id="gif" src="osito-inicial.gif" alt="Osito de San Valentín" class="osito">
+        </div>
+
+        <!-- Segunda parte: Mensaje "Sabía que dirías que sí" -->
+        <div id="sabiaQueDiriasQueSi" class="hidden">
+            <h1>¡Sabía que dirías que sí!</h1>
+            <img src="osito-final.gif" alt="Osito final" class="osito">
+            <button id="verInvitacionButton">Ver invitación</button>
+        </div>
+
+        <!-- Tercera parte: Invitación -->
+        <div id="invitacion" class="hidden">
+            <h1>Invitación para alguien muy especial</h1>
+            <img src="osito-invitacion.gif" alt="Osito invitación" class="osito">
+            <p><strong>Lugar:</strong> Raw Café</p>
+            <p><strong>Dirección:</strong> Ca. Independencia 596, Miraflores</p>
+            <p><strong>Hora:</strong> 7:30 pm</p>
+            <p><strong>Acompañante:</strong> Alvarito </p>
+            <p><strong>No faltes 🌟</strong></p>
+            <p><em>P.D.: Sí reservé, por si acaso 😊</em></p>
+            <button id="siguienteButton">Siguiente</button>
+        </div>
+
+        <!-- Cuarta parte: Última sección -->
+        <div id="ultimaParte" class="hidden">
+            <h1>Espero te guste, amor 💖</h1>
+            <img src="osito-comiendo.gif" alt="Osito comiendo" class="osito">
+            <p class="agradecimiento">Agradecimiento especial a DeepSeek por ayudarme a realizar este programa 😊</p>
+        </div>
+    </div>
+    <canvas id="confetti"></canvas>
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.4.0/dist/confetti.browser.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
